@@ -32,6 +32,7 @@ class CochesAdapter(contexto: Context, var listaDeCoches: ArrayList<Coche>): Bas
 
             }
             return miVista
+
         }else{
             val inflater = contexto!!.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val miVista = inflater.inflate(R.layout.molde_venta_grid, null)
